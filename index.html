@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>USER SCENARIO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <h2 class="logo">Pkats</h2>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Services</a>
+                <button class="btn-login">Login</button>
+            </div>
+        </header>
+        <div class="wrapper">
+            <span class="icon-close">
+                <ion-icon name="close-outline"></ion-icon>
+            </span>
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon">
+                        <ion-icon name="mail-outline">
+                        </ion-icon>
+                        </span>
+                        <input type="email" required>
+                        <label for="#">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                        <ion-icon name="lock-closed-outline">
+                        </ion-icon>
+                        </span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">
+                        Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="btn">Login
+                    </button>
+                    <div class="login-register">
+                        <p>Don't have an account?</p>
+                            <a href="#">
+                                <div class="register-link">Register</div>
+                            </a>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box register">
+                <h2>Register</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon">
+                        <ion-icon name="person-add-outline"></ion-icon>
+                        </ion-icon>
+                        </span>
+                        <input type="text" required>
+                        <label for="#">User Name</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                        <ion-icon name="mail-outline">
+                        </ion-icon>
+                        </span>
+                        <input type="email" required>
+                        <label for="#">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                        <ion-icon name="lock-closed-outline">
+                        </ion-icon>
+                        </span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">
+                        I agree to the terms & coditions</label>
+                    </div>
+                    <button type="submit" class="btn">Register
+                    </button>
+                    <div class="login-register">
+                        <p>Already have an account?</p>
+                            <a href="#">
+                                <div class="login-link">Login</div>
+                            </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="./scenario.js"></script>
+    </body>
+</html>
